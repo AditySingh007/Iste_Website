@@ -447,6 +447,32 @@ h6 {
 
 
 
+
+@media (min-width: 1024px) {
+  #Triveni-hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #Triveni-hero {
+    height: 100vh;
+  }
+ 
+
+  #Triveni-hero .container {
+    padding-top: 60px;
+  }
+
+  #Triveni-hero h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -819,6 +845,7 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  padding-top: 40px;
  
 }
 
