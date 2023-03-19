@@ -433,6 +433,12 @@ h6 {
   #hero {
     height: 100vh;
   }
+   #portfolio .portfolio-wrap img{
+  
+    width: 800px;
+    height: 300px;
+
+  }
  
 
   #hero .container {
@@ -804,6 +810,10 @@ section {
 
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
+}
+.portfolio .portfolio-wrap img{
+  height:320px ;
+  width: 450px;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
